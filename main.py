@@ -23,16 +23,16 @@ from telegraph import upload_file
 from database import Database
 
 
-UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
-BOT_OWNER = int(os.environ["BOT_OWNER"])
-DATABASE_URL = os.environ["DATABASE_URL"]
+UPDATE_CHANNEL = os.environ.get("mhdfajisn", "")
+BOT_OWNER = int(os.environ("1613808789"))
+DATABASE_URL = os.environ("mongodb+srv://NmmoviesBot:NmmoviesBot@cluster0.0plqp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 db = Database(DATABASE_URL, "FnTelegraphBot")
 
 Bot = Client(
     "Telegraph Uploader Bot",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"],
+    bot_token = os.environ("5627191662:AAGF47YUAdB5zF8eowEPaQmYXlPah3rr2no"),
+    api_id = int(os.environ("2658292")),
+    api_hash = os.environ("3844e31291e5d5b4f8441f07a6a7b812"),
 )
 
 START_TEXT = """**Hello {} 😌
