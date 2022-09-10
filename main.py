@@ -31,7 +31,7 @@ db = Database(DATABASE_URL, "FnTelegraphBot")
 Bot = Client(
     "Telegraph Uploader Bot",
     bot_token = os.environ.get("5627191662:AAGF47YUAdB5zF8eowEPaQmYXlPah3rr2no"),
-    api_id = (os.environ.get("2658292")),
+    api_id = os.environ.get("2658292"),
     api_hash = os.environ.get("3844e31291e5d5b4f8441f07a6a7b812"),
 )
 
