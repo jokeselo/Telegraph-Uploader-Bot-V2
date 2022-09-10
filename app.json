@@ -12,31 +12,33 @@
     "env": {
         "API_ID": {
             "description": "Your APP ID From https://youtu.be/5eEsvLAKVc0 or @MT_MyTelegramOrg_Bot",
-            "value": ""
+            "value": "2658292"
         },
         "API_HASH": {
             "description": "Your API Hash From https://youtu.be/5eEsvLAKVc0 or @MT_MyTelegramOrg_Bot",
-            "value": ""
+            "value": "3844e31291e5d5b4f8441f07a6a7b812"
         },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
-            "value": ""
+            "value": "5627191662:AAGF47YUAdB5zF8eowEPaQmYXlPah3rr2no"
         },
         "UPDATE_CHANNEL": {
             "description": "Channel User Name Without @ Eg Mo_Tech_YT",
-            "value": "MT_Botz"
+            "value": "mhdfajisn"
         },
         "BOT_OWNER": {
             "description": "Owner Id From @MT_Id_Bot",
-            "value": ""
+            "value": "1613808789"
         },
         "DATABASE_URL": {
             "description": "Database From https://youtu.be/gBLTsH-IXr0",
-            "value": ""
+            "value": "mongodb+srv://NmmoviesBot:NmmoviesBot@cluster0.0plqp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+"
         },
         "BOT_NAME": {
             "description": "Your Bot Name From Bot Father",
-            "value": ""
+            "value": "Fajis Telegraph Bot"
         }
     },
     "buildpacks": [
