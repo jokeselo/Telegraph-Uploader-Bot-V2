@@ -40,7 +40,7 @@ I am small media or file to telegra.ph link uploader bot.**
 
 >> `I can convert under 5MB photo or video to telegraph link.`
 
-Made by @Mo_Tech_YT"""
+Made by @mhdfajisn"""
 
 HELP_TEXT = """**Hey, Follow these steps:**
 
@@ -55,21 +55,21 @@ HELP_TEXT = """**Hey, Follow these steps:**
 /about - For more about me
 /status - For bot updates
 
-Made by @Mo_Tech_YT"""
+Made by @mhdfajisn"""
 
 ABOUT_TEXT = """--**About Me**-- 😎
 
 🤖 **Name :** [Telegraph Uploader](https://telegram.me/{})
 
-👨‍💻 **Developer :** [Fayas](https://github.com/FayasNoushad)
+👨‍💻 **Developer :** [Fayas](https://t.me/mhdfajisn)
 
-👨‍💻 **Editor :** [Muhammed](https://github.com/Mrk_yt)
+👨‍💻 **Editor :** [Fajis](https://github.com/mhdfajis)
 
-📢 **Channel :** [Mo Tech Channel](https://telegram.me/Mo_Tech_YT)
+📢 **Channel :** [Channel](https://telegram.me/mhdfajisn)
 
-👥 **Group :** [Mo Tech Group](https://telegram.me/Mo_Tech_Group)
+👥 **Group :** [Tech Group](https://telegram.me/codingdiscuss)
 
-🌐 **Source :** [👉 Click here](https://github.com/MRK-YT/Telegraph-Uploader-Bot-V2)
+🌐 **Source :** [👉 Click here](https://github.com/)
 
 📝 **Language :** [Python3](https://python.org)
 
@@ -81,7 +81,7 @@ FORCE_SUBSCRIBE_TEXT = "<code>Sorry Dear You Must Join My Updates Channel for us
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🖥️ Deploy Video 🖥️', url='https://youtu.be/c-GfUfriP50'),
+        InlineKeyboardButton('🖥️ Developer 🖥️', url='https://t.me/mhdfajisn'),
         ],[
         InlineKeyboardButton('⚙ Help', callback_data='help'),
         InlineKeyboardButton('About 🔰', callback_data='about'),
@@ -91,7 +91,7 @@ START_BUTTONS = InlineKeyboardMarkup(
 
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🖥️ Deploy Video 🖥️', url='https://youtu.be/c-GfUfriP50'),
+        InlineKeyboardButton('🖥️ Developer 🖥️', url='https://t.me/mhdfajisn'),
         ],[
         InlineKeyboardButton('🏘 Home', callback_data='home'),
         InlineKeyboardButton('About 🔰', callback_data='about'),
@@ -101,7 +101,7 @@ HELP_BUTTONS = InlineKeyboardMarkup(
 
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🖥️ Deploy Video 🖥️', url='https://youtu.be/c-GfUfriP50'),
+        InlineKeyboardButton('🖥️ Developer 🖥️', url='https://t.me/mhdfajisn'),
         ],[
         InlineKeyboardButton('🏘 Home', callback_data='home'),
         InlineKeyboardButton('Help ⚙', callback_data='help'),
@@ -204,7 +204,7 @@ async def telegraph_upload(bot, update):
             return
         except Exception as error:
             print(error)
-            await update.reply_text(text="Something wrong. Contact <a href='https://telegram.me/TheFayas'>Developer</a>.", disable_web_page_preview=True)
+            await update.reply_text(text="Something wrong. Contact <a href='https://telegram.me/mhdfajisn>Developer</a>.", disable_web_page_preview=True)
             return
     medianame = "./DOWNLOADS/" + "FayasNoushad/FnTelegraphBot"
     text = await update.reply_text(
@@ -234,19 +234,19 @@ async def telegraph_upload(bot, update):
         print(error)
         return
     await text.edit_text(
-        text=f"<b>Link :-</b> <code>https://telegra.ph{response[0]}</code>\n\n<b>Join :-</b> @MT_Botz",
+        text=f"<b>Link :-</b> <code>https://te.legra.ph{response[0]}</code>\n\n<b>Join :-</b> @MT_Botz",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="Open Link", url=f"https://telegra.ph{response[0]}"),
-                    InlineKeyboardButton(text="Share Link", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
+                    InlineKeyboardButton(text="Open Link", url=f"https://te.legra.ph{response[0]}"),
+                    InlineKeyboardButton(text="Share Link", url=f"https://telegram.me/share/url?url=https://te.legra.ph{response[0]}")
                 ],
                 [  
-                    InlineKeyboardButton(text="⚙ Join Updates Channel ⚙", url="https://telegram.me/FayasNoushad")
+                    InlineKeyboardButton(text="⚙ Join Updates Channel ⚙", url="https://telegram.me/mhdfajisn")
                 ],
                 [
-                    InlineKeyboardButton('🖥️ Deploy Video 🖥️', url='https://youtu.be/c-GfUfriP50')
+                    InlineKeyboardButton('🖥️ Developer 🖥️', url='https://t.me/mhdfajisn')
                 ]
             ]
         )
