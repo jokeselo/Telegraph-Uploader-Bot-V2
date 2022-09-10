@@ -32,9 +32,7 @@
         },
         "DATABASE_URL": {
             "description": "Database From https://youtu.be/gBLTsH-IXr0",
-            "value": "mongodb+srv://NmmoviesBot:NmmoviesBot@cluster0.0plqp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-
-"
+            "value": "mongodb+srv://NmmoviesBot:NmmoviesBot@cluster0.0plqp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
         },
         "BOT_NAME": {
             "description": "Your Bot Name From Bot Father",
